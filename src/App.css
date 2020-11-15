@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+#root{
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.__main{
+  max-width: 90%;
+  margin: auto;
+  background-color: #fff;
+  min-height: 80vh;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6c84ff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3b5bfe;
+}
